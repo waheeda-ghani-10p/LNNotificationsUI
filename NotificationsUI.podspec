@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NotificationsUI"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "A framework for displaying notifications similar to Apple's iOS 7 and iOS 8 notifications."
   s.description  = <<-DESC
                    LNNotificationsUI is a framework for displaying notifications
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "Leo Natan"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/LeoNatan/LNNotificationsUI.git", :commit => "6bb2920bb601d1e0b2b06ae175b1c346aa63b0f6" }
-  s.source_files  = "LNNotificationsUI/*.{h,m}"
+  s.source       = { :git => "https://github.com/changer/LNNotificationsUI.git", :tag => "#{s.version}" }
+  s.source_files  = "LNNotificationsUI/**/*.{h,m}"
 end
